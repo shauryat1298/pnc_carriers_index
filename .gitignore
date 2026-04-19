@@ -1,0 +1,50 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local Python installs
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated runtime data
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Large/source PDFs and extracted binary artifacts.
+# Keep Markdown analysis/plans under artifacts/ tracked.
+artifacts/*.pdf
+artifacts/extracted/
+
+# Local gstack runtime output
+.gstack/sessions/
+.gstack/analytics/
+.gstack/qa-reports/screenshots/

@@ -1,0 +1,9 @@
+[project]
+name = "pnc-market-share-index"
+version = "0.1.0"
+description = "Searchable index prototype for NAIC P&C market share PDF data."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
